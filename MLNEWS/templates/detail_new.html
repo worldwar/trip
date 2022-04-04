@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %}
+ 旅游推荐系统
+{% endblock %}
+
+{% block css %}
+    <style>
+        h1,h2{
+            margin: 30px auto;
+            text-align: center;
+        }
+        div{
+            border: 1px solid black;
+        }
+        h3{
+            border-bottom: 1px dotted black;margin-top: 20px;
+            height: 30px;
+            line-height: 30px;
+            margin-left: 50px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+
+    <div style="width: 800px;margin: 10px auto">
+            <h3>小区：{{ info.xiaoqu }}</h3>
+            <h3>区域：{{ info.quyu }}</h3>
+            <h3>户型：{{ info.huxing }}</h3>
+            <h3>单价：{{ info.danjia }}元</h3>
+            <h3>面积：{{ info.mianji }}㎡</h3>
+            <h3>总价：{{ info.total }}万元</h3>
+            <img src="{{ info.img }}" alt="" style="width: 300px;height: 300px;margin-top: 20px;margin-left: calc(50% - 150px)">
+    </div>
+
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

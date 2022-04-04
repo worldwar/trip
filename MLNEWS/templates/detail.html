@@ -1,0 +1,213 @@
+<!doctype html>
+{% load  static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer"/>
+    <link rel="stylesheet" href="/static/css/page5.css"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/comment.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'layui/css/layui.css' %}">
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <title>马来西亚</title>
+</head>
+
+<body>
+<div class="back">
+    <img class="index" width="50%" src="/static/img/home.png" alt="">
+</div>
+{% for info in infos %}
+    <div class="div1">
+        <div imgurl="{{ info.img }}" class="bg1" style="background-image: url({{ info.img }});">
+            <img src="" alt="">
+            <img src="{{ info.img }}" alt="" style="display: none">
+{#        <div class="bg1" style="background-image: url(https://img-blog.csdnimg.cn/img_convert/0c03e0c2f17428d3a03399b05e1fbd59.png);">#}
+            <div class="cheng"></div>
+            <div class="p1">
+                <div class="title">{{ info.title }}</div>
+                <div class="p2">{{ info.detail }}</div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+
+<!---
+<div class="div2">
+    <div class="bg2">
+        <div class="cheng"></div>
+        <div class="p1">
+            <div class="title2">槟城</div>
+            <div class="p3">世界文化遗产的槟城，拥有独特的民族文化、古雅的建筑和诱人的美食，也有美好的海滩与多彩的风光，又有众多的名胜古迹。</div>
+        </div>
+    </div>
+</div>
+<div class="div3">
+    <div class="bg3">
+        <div class="cheng"></div>
+        <div class="p1">
+            <div class="title3">西巴丹岛</div>
+            <div class="p4">
+                西巴丹岛是世界顶级潜水胜地，从马布岛水上屋乘快艇到举世闻名的西巴丹岛只需十五分钟。在西巴丹岛各种软、硬珊瑚比比皆是，大型的海洋生物鲸鲨、锤头鲨、海豚、魔鬼鱼不时到访，海狼、铁头鱼、白鳍鲨、灰鲨、龙头鹦哥、梭鱼群、细鳞等更是这里的长住居民。
+            </div>
+        </div>
+    </div>
+</div>
+<div class="div4">
+    <div class="bg4">
+        <div class="cheng"></div>
+        <div class="p1">
+            <div class="title4">兰卡威</div>
+            <div class="p5">
+                兰卡威位于马六甲海峡和安达曼海之间，马来西亚和泰国边境交界处，在马来西亚半岛西北端的海面上，距槟榔屿108公里，由104个小岛组成，涨潮时仅能看见99个岛屿。主岛是兰卡威岛（Langkawi
+                Island），它是群岛中唯一一个有定居者的岛。
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<section class="tent_info">
+
+    <div class="col-md-12 col-sm-12 col-xl-12 textarea one">
+        <textarea class="text_send" id="text_send"></textarea>
+        <div id="test12"></div>
+        <div class="col-md-12 col-sm-12 col-xl-12 btn btn_send">提交</div>
+    </div>
+    <h2 style="text-align: center;border-bottom: 1px solid red">评论列表--评论数:{{ leng }}, 平均评分：{{ avg_num }}</h2>
+    {% for comment in comment_list %}
+        <div class="col-md-12 col-sm-12 col-xl-12 one cont">
+            <div class="col-md-2 col-sm-2 col-xl-12 one img">
+                <img src="{% static 'img/qq.jpeg' %}">
+            </div>
+            <div class="col-md-10 col-sm-10 col-xl-12 one content">
+                <div class="comment-right">
+                    <h4>用户名：{{ comment.user.username }}</h4>
+                    <div class="comment-content-header three">
+                        <span><i class="glyphicon glyphicon-time two"></i>{{ comment.time }}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="glyphicon glyphicon-map-marker two"></i>{{ comment.user.address }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span style="margin-right: 20px" class="rate" value="{{ comment.score }}"></span>
+                    </div>
+                    <p class="tent"><label style="color: red" for="">评论内容：</label>  {{ comment.content }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+
+</section>
+
+</body>
+<script class="autoinsert" src="/static/jquery-3.5.1.js"></script>
+<script src="/static/js/snowfall.jquery.js"></script>
+<script type="text/javascript" src="{% static 'js/comment.js' %}"></script>
+<script type="text/javascript" src="{% static 'layui/layui.js' %}"></script>
+<script>
+    $(document).ready(function () {
+        $('.index').click(function (){
+            location.href = "{% url 'index' %}"
+        })
+
+
+        $(".back").click(function () {
+            window.location.href = "page1.html";
+        });
+        //图一
+        $(".bg1").hover(function () {
+            $(".bg1").css("margin-top", "0");
+            $(".bg1").css("margin-left", "0");
+            $(".bg1").css("width", "100%");
+            $(".title").css("padding-top", "0px");
+            $(".p2").css("opacity", "1");
+        }, function () {
+            $(".bg1").css("margin-top", "10%");
+            $(".bg1").css("margin-left", "20%");
+            $(".bg1").css("width", "60%");
+            $(".title").css("padding-top", "20%");
+            $(".p2").css("height", "0");
+            $(".p2").css("opacity", "0");
+
+        })
+        //图二
+        $(".bg2").hover(function () {
+            $(".bg2").css("margin-top", "0");
+            $(".bg2").css("margin-left", "0");
+            $(".bg2").css("width", "100%");
+            $(".title2").css("padding-top", "0px");
+            $(".p3").css("opacity", "1");
+        }, function () {
+            $(".bg2").css("margin-top", "10%");
+            $(".bg2").css("margin-left", "20%");
+            $(".bg2").css("width", "60%");
+            $(".title2").css("padding-top", "20%");
+            $(".p3").css("opacity", "0");
+
+        })
+        //图三
+        $(".bg3").hover(function () {
+            $(".bg3").css("margin-top", "0");
+            $(".bg3").css("margin-left", "0");
+            $(".bg3").css("width", "100%");
+            $(".title3").css("padding-top", "0px");
+            $(".p4").css("opacity", "1");
+        }, function () {
+            $(".bg3").css("margin-top", "10%");
+            $(".bg3").css("margin-left", "20%");
+            $(".bg3").css("width", "60%");
+            $(".title3").css("padding-top", "20%");
+            $(".p4").css("height", "0");
+            $(".p4").css("opacity", "0");
+
+        })
+        //图四
+        $(".bg4").hover(function () {
+            $(".bg4").css("margin-top", "0");
+            $(".bg4").css("margin-left", "0");
+            $(".bg4").css("width", "100%");
+            $(".title4").css("padding-top", "0px");
+            $(".p5").css("opacity", "1");
+        }, function () {
+            $(".bg4").css("margin-top", "10%");
+            $(".bg4").css("margin-left", "20%");
+            $(".bg4").css("width", "60%");
+            $(".title4").css("padding-top", "20%");
+            $(".p5").css("height", "0");
+            $(".p5").css("opacity", "0");
+
+        })
+    });
+
+</script>
+<script>
+    layui.use(['rate', 'layer'], function () {
+        var rate = layui.rate, layer = layui.layer;
+        var instance = rate.render({
+            elem: '#test12'
+            , value: 2.5
+            , half: true
+            , theme: '#1E9FFF'
+        })
+        $('.rate').each(function () {
+            rate.render({
+                elem: this
+                , value: $(this).attr('value')/2
+                , half: true
+                , theme: '#1E9FFF'
+                , readonly: true
+            })
+        })
+
+        $(".btn_send").on('click', function () {
+            $.post('{% url "detail"  %}', {
+                content: $('#text_send').val(),
+                score: instance.config.value,
+                jid : "{{ id_ }}"
+            }, function (msg) {
+                alert('评论成功啦！！1')
+                location.reload()
+            });
+        })
+
+    });
+</script>
+
+</html>

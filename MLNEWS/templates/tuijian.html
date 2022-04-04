@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block title %}
+    旅游推荐系统
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="/static/css/nav.css">
+    <style>
+        a:hover {
+            color: red;
+        !important;
+        }
+
+        .haha:hover {
+            background-color: lightskyblue;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+
+    {% ifnotequal msg '' %}
+        <div style="text-align: center">
+            <h1 style="margin: 10px auto"> <label style="color: red" class="red" for="">{{ msg }}</label></h1>
+        </div>
+    {% endifnotequal %}
+    {% with newlist as newlist %}
+
+        {% include 'new_list.html' %}
+    {% endwith %}
+{% endblock %}
+
+{% block js %}
+    <script src="/static/js/current.js"></script>
+    <script src="/static/layui/lay/modules/layer.js"></script>
+    <script>
+
+        $('.shoucang').click(function () {
+            var id = $(this).attr('id_')
+            var ths = $(this)
+            $.ajax({
+                url: '/star_ajax/',
+                dataType: 'json',
+                method: 'post',
+                data: {
+                    'id': id
+                },
+                success: function (data) {
+                    if (data.color == 'red') {
+                        $(ths).css('color', data.color)
+                        layer.msg('收藏成功', {icon: 8, time: 2000});
+                    } else {
+                        $(ths).css('color', data.color)
+                        layer.msg('取消收藏', {icon: 5, time: 2000});
+                    }
+
+                }
+            });
+        })
+
+    </script>
+
+{% endblock %}

@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/page5.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<title>马来西亚</title>
+</head>
+
+<body>
+	<div class="back">
+		<img width="50%" src="image/home.png" alt="">
+	</div>
+	<div class="div1">
+		<div class="bg1">
+			<div class="cheng"></div>
+			<div class="p1">
+				<div class="title">天空之城</div>
+				<div class="p2">天空之桥，位于兰卡威群岛，总长125米。特别让人觉得惊讶的是，这么个又大又重的“钢架”居然只用了一根支柱来支撑，支柱高87米，被固定在山腰，然后再由8根钢缆牵引，整个桥被“吊”在了海拔687米的高空，是架在天空上的桥。</div>
+			</div>
+		</div>
+	</div>
+	<div class="div2">
+		<div class="bg2">
+			<div class="cheng"></div>
+			<div class="p1">
+				<div class="title2">槟城</div>
+				<div class="p3">世界文化遗产的槟城，拥有独特的民族文化、古雅的建筑和诱人的美食，也有美好的海滩与多彩的风光，又有众多的名胜古迹。</div>
+			</div>
+		</div>
+	</div>
+	<div class="div3">
+		<div class="bg3">
+			<div class="cheng"></div>
+			<div class="p1">
+				<div class="title3">西巴丹岛</div>
+				<div class="p4">西巴丹岛是世界顶级潜水胜地，从马布岛水上屋乘快艇到举世闻名的西巴丹岛只需十五分钟。在西巴丹岛各种软、硬珊瑚比比皆是，大型的海洋生物鲸鲨、锤头鲨、海豚、魔鬼鱼不时到访，海狼、铁头鱼、白鳍鲨、灰鲨、龙头鹦哥、梭鱼群、细鳞等更是这里的长住居民。</div>
+			</div>
+		</div>
+	</div>
+	<div class="div4">
+		<div class="bg4">
+			<div class="cheng"></div>
+			<div class="p1">
+				<div class="title4">兰卡威</div>
+				<div class="p5">兰卡威位于马六甲海峡和安达曼海之间，马来西亚和泰国边境交界处，在马来西亚半岛西北端的海面上，距槟榔屿108公里，由104个小岛组成，涨潮时仅能看见99个岛屿。主岛是兰卡威岛（Langkawi Island），它是群岛中唯一一个有定居者的岛。</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script  class="autoinsert" src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/snowfall.jquery.js"></script> 
+	<script>
+		$(document).ready(function () {
+			$(".back").click(function(){
+				window.location.href="page1.html";
+			});
+			//图一
+			$(".bg1").hover(function(){
+				$(".bg1").css("margin-top","0");
+				$(".bg1").css("margin-left","0");
+				$(".bg1").css("width","100%");
+				$(".title").css("padding-top","0px");
+				$(".p2").css("opacity","1");
+			},function(){
+				$(".bg1").css("margin-top","10%");
+				$(".bg1").css("margin-left","20%");
+				$(".bg1").css("width","60%");
+				$(".title").css("padding-top","20%");
+				$(".p2").css("height","0");
+				$(".p2").css("opacity","0");
+				
+			})
+			//图二
+			$(".bg2").hover(function(){
+				$(".bg2").css("margin-top","0");
+				$(".bg2").css("margin-left","0");
+				$(".bg2").css("width","100%");
+				$(".title2").css("padding-top","0px");
+				$(".p3").css("opacity","1");
+			},function(){
+				$(".bg2").css("margin-top","10%");
+				$(".bg2").css("margin-left","20%");
+				$(".bg2").css("width","60%");
+				$(".title2").css("padding-top","20%");
+				$(".p3").css("opacity","0");
+				
+			})
+			//图三
+			$(".bg3").hover(function(){
+				$(".bg3").css("margin-top","0");
+				$(".bg3").css("margin-left","0");
+				$(".bg3").css("width","100%");
+				$(".title3").css("padding-top","0px");
+				$(".p4").css("opacity","1");
+			},function(){
+				$(".bg3").css("margin-top","10%");
+				$(".bg3").css("margin-left","20%");
+				$(".bg3").css("width","60%");
+				$(".title3").css("padding-top","20%");
+				$(".p4").css("height","0");
+				$(".p4").css("opacity","0");
+				
+			})
+			//图四
+			$(".bg4").hover(function(){
+				$(".bg4").css("margin-top","0");
+				$(".bg4").css("margin-left","0");
+				$(".bg4").css("width","100%");
+				$(".title4").css("padding-top","0px");
+				$(".p5").css("opacity","1");
+			},function(){
+				$(".bg4").css("margin-top","10%");
+				$(".bg4").css("margin-left","20%");
+				$(".bg4").css("width","60%");
+				$(".title4").css("padding-top","20%");
+				$(".p5").css("height","0");
+				$(".p5").css("opacity","0");
+				
+			})
+		});
+		
+	</script>
+</html>

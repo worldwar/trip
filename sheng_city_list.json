@@ -1,0 +1,2660 @@
+[
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "东城区",
+        "city_url": "https://www.meet99.com/lvyou-dongcheng.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "西城区",
+        "city_url": "https://www.meet99.com/lvyou-xicheng.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "朝阳区",
+        "city_url": "https://www.meet99.com/lvyou-chaoyang.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "丰台区",
+        "city_url": "https://www.meet99.com/lvyou-fengtai.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "石景山区",
+        "city_url": "https://www.meet99.com/lvyou-shijingshan.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "海淀区",
+        "city_url": "https://www.meet99.com/lvyou-haidian.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "门头沟区",
+        "city_url": "https://www.meet99.com/lvyou-mentougou.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "房山区",
+        "city_url": "https://www.meet99.com/lvyou-fangshan.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "通州区",
+        "city_url": "https://www.meet99.com/lvyou-tongzhou.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "顺义区",
+        "city_url": "https://www.meet99.com/lvyou-shunyi.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "昌平区",
+        "city_url": "https://www.meet99.com/lvyou-changping.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "大兴区",
+        "city_url": "https://www.meet99.com/lvyou-daxing.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "怀柔区",
+        "city_url": "https://www.meet99.com/lvyou-huairou.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "平谷区",
+        "city_url": "https://www.meet99.com/lvyou-pinggu.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "密云区",
+        "city_url": "https://www.meet99.com/lvyou-miyun.html"
+    },
+    {
+        "sheng": "北京市",
+        "sheng_url": "https://www.meet99.com/lvyou-beijing.html",
+        "city_name": "延庆区",
+        "city_url": "https://www.meet99.com/lvyou-yanqing.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "和平区",
+        "city_url": "https://www.meet99.com/lvyou-hepingqu.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "河东区",
+        "city_url": "https://www.meet99.com/lvyou-hedong.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "河西区",
+        "city_url": "https://www.meet99.com/lvyou-hexi.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "南开区",
+        "city_url": "https://www.meet99.com/lvyou-nankai.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "河北区",
+        "city_url": "https://www.meet99.com/lvyou-hebeiqu.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "红桥区",
+        "city_url": "https://www.meet99.com/lvyou-hongqiao.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "滨海新区",
+        "city_url": "https://www.meet99.com/lvyou-binhai.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "东丽区",
+        "city_url": "https://www.meet99.com/lvyou-dongli.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "西青区",
+        "city_url": "https://www.meet99.com/lvyou-xiqing.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "津南区",
+        "city_url": "https://www.meet99.com/lvyou-jinnan.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "北辰区",
+        "city_url": "https://www.meet99.com/lvyou-beichen.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "武清区",
+        "city_url": "https://www.meet99.com/lvyou-wuqing.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "宝坻区",
+        "city_url": "https://www.meet99.com/lvyou-baodi.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "宁河区",
+        "city_url": "https://www.meet99.com/lvyou-ninghe.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "静海区",
+        "city_url": "https://www.meet99.com/lvyou-jinghai.html"
+    },
+    {
+        "sheng": "天津市",
+        "sheng_url": "https://www.meet99.com/lvyou-tianjin.html",
+        "city_name": "蓟州区",
+        "city_url": "https://www.meet99.com/lvyou-jixian.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "石家庄市",
+        "city_url": "https://www.meet99.com/lvyou-shijiazhuang.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "唐山市",
+        "city_url": "https://www.meet99.com/lvyou-tangshan.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "秦皇岛市",
+        "city_url": "https://www.meet99.com/lvyou-qinhuangdao.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "邯郸市",
+        "city_url": "https://www.meet99.com/lvyou-handan.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "邢台市",
+        "city_url": "https://www.meet99.com/lvyou-xingtai.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "保定市",
+        "city_url": "https://www.meet99.com/lvyou-baoding.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "张家口市",
+        "city_url": "https://www.meet99.com/lvyou-zhangjiakou.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "承德市",
+        "city_url": "https://www.meet99.com/lvyou-chengde.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "沧州市",
+        "city_url": "https://www.meet99.com/lvyou-cangzhou.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "廊坊市",
+        "city_url": "https://www.meet99.com/lvyou-langfang.html"
+    },
+    {
+        "sheng": "河北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hebei.html",
+        "city_name": "衡水市",
+        "city_url": "https://www.meet99.com/lvyou-hengshui.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "太原市",
+        "city_url": "https://www.meet99.com/lvyou-taiyuan.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "大同市",
+        "city_url": "https://www.meet99.com/lvyou-datongshi.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "阳泉市",
+        "city_url": "https://www.meet99.com/lvyou-yangquan.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "长治市",
+        "city_url": "https://www.meet99.com/lvyou-changzhi.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "晋城市",
+        "city_url": "https://www.meet99.com/lvyou-jincheng.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "朔州市",
+        "city_url": "https://www.meet99.com/lvyou-shuozhou.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "晋中市",
+        "city_url": "https://www.meet99.com/lvyou-jinzhong.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "运城市",
+        "city_url": "https://www.meet99.com/lvyou-yuncheng.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "忻州市",
+        "city_url": "https://www.meet99.com/lvyou-xinzhou.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "临汾市",
+        "city_url": "https://www.meet99.com/lvyou-linfen.html"
+    },
+    {
+        "sheng": "山西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shanxi.html",
+        "city_name": "吕梁市",
+        "city_url": "https://www.meet99.com/lvyou-lvliang.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "呼和浩特市",
+        "city_url": "https://www.meet99.com/lvyou-huhehaote.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "包头市",
+        "city_url": "https://www.meet99.com/lvyou-baotou.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "乌海市",
+        "city_url": "https://www.meet99.com/lvyou-wuhai.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "赤峰市",
+        "city_url": "https://www.meet99.com/lvyou-chifeng.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "通辽市",
+        "city_url": "https://www.meet99.com/lvyou-tongliao.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "鄂尔多斯市",
+        "city_url": "https://www.meet99.com/lvyou-eerduosi.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "呼伦贝尔市",
+        "city_url": "https://www.meet99.com/lvyou-hulunbeier.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "巴彦淖尔市",
+        "city_url": "https://www.meet99.com/lvyou-bayannaoer.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "乌兰察布市",
+        "city_url": "https://www.meet99.com/lvyou-wulanchabu.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "兴安盟",
+        "city_url": "https://www.meet99.com/lvyou-xingAnmeng.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "锡林郭勒盟",
+        "city_url": "https://www.meet99.com/lvyou-xilinguole.html"
+    },
+    {
+        "sheng": "内蒙古",
+        "sheng_url": "https://www.meet99.com/lvyou-neimengu.html",
+        "city_name": "阿拉善盟",
+        "city_url": "https://www.meet99.com/lvyou-alashan.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "沈阳市",
+        "city_url": "https://www.meet99.com/lvyou-shenyang.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "大连市",
+        "city_url": "https://www.meet99.com/lvyou-dalian.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "鞍山市",
+        "city_url": "https://www.meet99.com/lvyou-anshan.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "抚顺市",
+        "city_url": "https://www.meet99.com/lvyou-fushun.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "本溪市",
+        "city_url": "https://www.meet99.com/lvyou-benxi.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "丹东市",
+        "city_url": "https://www.meet99.com/lvyou-dandong.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "锦州市",
+        "city_url": "https://www.meet99.com/lvyou-liaoningjinzhou.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "营口市",
+        "city_url": "https://www.meet99.com/lvyou-yingkou.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "阜新市",
+        "city_url": "https://www.meet99.com/lvyou-fuxin.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "辽阳市",
+        "city_url": "https://www.meet99.com/lvyou-liaoyang.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "盘锦市",
+        "city_url": "https://www.meet99.com/lvyou-panjinshi.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "铁岭市",
+        "city_url": "https://www.meet99.com/lvyou-tieling.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "朝阳市",
+        "city_url": "https://www.meet99.com/lvyou-chaoyangshi.html"
+    },
+    {
+        "sheng": "辽宁省",
+        "sheng_url": "https://www.meet99.com/lvyou-liaoning.html",
+        "city_name": "葫芦岛市",
+        "city_url": "https://www.meet99.com/lvyou-huludao.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "长春市",
+        "city_url": "https://www.meet99.com/lvyou-changchun.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "吉林市",
+        "city_url": "https://www.meet99.com/lvyou-jilinshi.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "四平市",
+        "city_url": "https://www.meet99.com/lvyou-siping.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "辽源市",
+        "city_url": "https://www.meet99.com/lvyou-liaoyuan.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "通化市",
+        "city_url": "https://www.meet99.com/lvyou-tonghua.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "白山市",
+        "city_url": "https://www.meet99.com/lvyou-baishan.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "松原市",
+        "city_url": "https://www.meet99.com/lvyou-songyuan.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "白城市",
+        "city_url": "https://www.meet99.com/lvyou-baicheng.html"
+    },
+    {
+        "sheng": "吉林省",
+        "sheng_url": "https://www.meet99.com/lvyou-jilin.html",
+        "city_name": "延边朝鲜族自治州",
+        "city_url": "https://www.meet99.com/lvyou-yanbian.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "哈尔滨市",
+        "city_url": "https://www.meet99.com/lvyou-harbin.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "齐齐哈尔市",
+        "city_url": "https://www.meet99.com/lvyou-qiqihaer.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "鸡西市",
+        "city_url": "https://www.meet99.com/lvyou-jixi.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "鹤岗市",
+        "city_url": "https://www.meet99.com/lvyou-hegang.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "双鸭山市",
+        "city_url": "https://www.meet99.com/lvyou-shuangyashan.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "大庆市",
+        "city_url": "https://www.meet99.com/lvyou-daqing.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "伊春市",
+        "city_url": "https://www.meet99.com/lvyou-yichunshi.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "佳木斯市",
+        "city_url": "https://www.meet99.com/lvyou-jiamusi.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "七台河市",
+        "city_url": "https://www.meet99.com/lvyou-qitaihe.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "牡丹江市",
+        "city_url": "https://www.meet99.com/lvyou-mudanjiang.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "黑河市",
+        "city_url": "https://www.meet99.com/lvyou-heihe.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "绥化市",
+        "city_url": "https://www.meet99.com/lvyou-suihua.html"
+    },
+    {
+        "sheng": "黑龙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-heilongjiang.html",
+        "city_name": "大兴安岭地区",
+        "city_url": "https://www.meet99.com/lvyou-daxingAnling.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "黄浦区",
+        "city_url": "https://www.meet99.com/lvyou-huangpu.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "徐汇区",
+        "city_url": "https://www.meet99.com/lvyou-xuhui.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "长宁区",
+        "city_url": "https://www.meet99.com/lvyou-changning.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "静安区",
+        "city_url": "https://www.meet99.com/lvyou-jingAn.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "普陀区",
+        "city_url": "https://www.meet99.com/lvyou-putuo.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "虹口区",
+        "city_url": "https://www.meet99.com/lvyou-hongkou.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "杨浦区",
+        "city_url": "https://www.meet99.com/lvyou-yangpu.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "闵行区",
+        "city_url": "https://www.meet99.com/lvyou-minxing.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "宝山区",
+        "city_url": "https://www.meet99.com/lvyou-baoshanqu.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "嘉定区",
+        "city_url": "https://www.meet99.com/lvyou-jiading.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "浦东新区",
+        "city_url": "https://www.meet99.com/lvyou-pudong.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "金山区",
+        "city_url": "https://www.meet99.com/lvyou-jinshan.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "松江区",
+        "city_url": "https://www.meet99.com/lvyou-songjiang.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "青浦区",
+        "city_url": "https://www.meet99.com/lvyou-qingpu.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "奉贤区",
+        "city_url": "https://www.meet99.com/lvyou-fengxian.html"
+    },
+    {
+        "sheng": "上海市",
+        "sheng_url": "https://www.meet99.com/lvyou-shanghai.html",
+        "city_name": "崇明区",
+        "city_url": "https://www.meet99.com/lvyou-chongming.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "南京市",
+        "city_url": "https://www.meet99.com/lvyou-nanjing.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "无锡市",
+        "city_url": "https://www.meet99.com/lvyou-wuxi.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "徐州市",
+        "city_url": "https://www.meet99.com/lvyou-xuzhou.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "常州市",
+        "city_url": "https://www.meet99.com/lvyou-changzhou.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "苏州市",
+        "city_url": "https://www.meet99.com/lvyou-suzhou.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "南通市",
+        "city_url": "https://www.meet99.com/lvyou-nantong.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "连云港市",
+        "city_url": "https://www.meet99.com/lvyou-lianyungang.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "淮安市",
+        "city_url": "https://www.meet99.com/lvyou-huaiAn.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "盐城市",
+        "city_url": "https://www.meet99.com/lvyou-yancheng.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "扬州市",
+        "city_url": "https://www.meet99.com/lvyou-yangzhou.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "镇江市",
+        "city_url": "https://www.meet99.com/lvyou-zhenjiang.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "泰州市",
+        "city_url": "https://www.meet99.com/lvyou-taizhoushi.html"
+    },
+    {
+        "sheng": "江苏省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangsu.html",
+        "city_name": "宿迁市",
+        "city_url": "https://www.meet99.com/lvyou-suqian.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "杭州市",
+        "city_url": "https://www.meet99.com/lvyou-hangzhou.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "宁波市",
+        "city_url": "https://www.meet99.com/lvyou-ningbo.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "温州市",
+        "city_url": "https://www.meet99.com/lvyou-wenzhou.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "嘉兴市",
+        "city_url": "https://www.meet99.com/lvyou-jiaxing.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "湖州市",
+        "city_url": "https://www.meet99.com/lvyou-huzhou.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "绍兴市",
+        "city_url": "https://www.meet99.com/lvyou-shaoxing.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "金华市",
+        "city_url": "https://www.meet99.com/lvyou-jinhua.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "衢州市",
+        "city_url": "https://www.meet99.com/lvyou-quzhou.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "舟山市",
+        "city_url": "https://www.meet99.com/lvyou-zhoushan.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "台州市",
+        "city_url": "https://www.meet99.com/lvyou-taizhou.html"
+    },
+    {
+        "sheng": "浙江省",
+        "sheng_url": "https://www.meet99.com/lvyou-zhejiang.html",
+        "city_name": "丽水市",
+        "city_url": "https://www.meet99.com/lvyou-lishui.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "合肥市",
+        "city_url": "https://www.meet99.com/lvyou-hefei.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "芜湖市",
+        "city_url": "https://www.meet99.com/lvyou-wuhu.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "蚌埠市",
+        "city_url": "https://www.meet99.com/lvyou-bengbu.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "淮南市",
+        "city_url": "https://www.meet99.com/lvyou-huainan.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "马鞍山市",
+        "city_url": "https://www.meet99.com/lvyou-maanshan.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "淮北市",
+        "city_url": "https://www.meet99.com/lvyou-huaibei.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "铜陵市",
+        "city_url": "https://www.meet99.com/lvyou-tongling.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "安庆市",
+        "city_url": "https://www.meet99.com/lvyou-anqing.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "黄山市",
+        "city_url": "https://www.meet99.com/lvyou-huangshan.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "滁州市",
+        "city_url": "https://www.meet99.com/lvyou-chuzhou.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "阜阳市",
+        "city_url": "https://www.meet99.com/lvyou-fuyangshi.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "宿州市",
+        "city_url": "https://www.meet99.com/lvyou-suzhoushi.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "六安市",
+        "city_url": "https://www.meet99.com/lvyou-liuan.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "亳州市",
+        "city_url": "https://www.meet99.com/lvyou-haozhou.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "池州市",
+        "city_url": "https://www.meet99.com/lvyou-chizhou.html"
+    },
+    {
+        "sheng": "安徽省",
+        "sheng_url": "https://www.meet99.com/lvyou-anhui.html",
+        "city_name": "宣城市",
+        "city_url": "https://www.meet99.com/lvyou-xuancheng.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "福州市",
+        "city_url": "https://www.meet99.com/lvyou-fuzhou.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "厦门市",
+        "city_url": "https://www.meet99.com/lvyou-xiamen.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "莆田市",
+        "city_url": "https://www.meet99.com/lvyou-putian.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "三明市",
+        "city_url": "https://www.meet99.com/lvyou-sanming.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "泉州市",
+        "city_url": "https://www.meet99.com/lvyou-quanzhou.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "漳州市",
+        "city_url": "https://www.meet99.com/lvyou-zhangzhou.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "南平市",
+        "city_url": "https://www.meet99.com/lvyou-nanping.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "龙岩市",
+        "city_url": "https://www.meet99.com/lvyou-longyan.html"
+    },
+    {
+        "sheng": "福建省",
+        "sheng_url": "https://www.meet99.com/lvyou-fujian.html",
+        "city_name": "宁德市",
+        "city_url": "https://www.meet99.com/lvyou-ningde.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "南昌市",
+        "city_url": "https://www.meet99.com/lvyou-nanchang.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "景德镇市",
+        "city_url": "https://www.meet99.com/lvyou-jingdezhen.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "萍乡市",
+        "city_url": "https://www.meet99.com/lvyou-pingxiang.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "九江市",
+        "city_url": "https://www.meet99.com/lvyou-jiujiang.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "新余市",
+        "city_url": "https://www.meet99.com/lvyou-xinyu.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "鹰潭市",
+        "city_url": "https://www.meet99.com/lvyou-yingtan.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "赣州市",
+        "city_url": "https://www.meet99.com/lvyou-ganzhou.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "吉安市",
+        "city_url": "https://www.meet99.com/lvyou-jiAn.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "宜春市",
+        "city_url": "https://www.meet99.com/lvyou-yichun.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "抚州市",
+        "city_url": "https://www.meet99.com/lvyou-fuzhoushi.html"
+    },
+    {
+        "sheng": "江西省",
+        "sheng_url": "https://www.meet99.com/lvyou-jiangxi.html",
+        "city_name": "上饶市",
+        "city_url": "https://www.meet99.com/lvyou-shangrao.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "济南市",
+        "city_url": "https://www.meet99.com/lvyou-jinan.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "青岛市",
+        "city_url": "https://www.meet99.com/lvyou-qingdao.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "淄博市",
+        "city_url": "https://www.meet99.com/lvyou-zibo.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "枣庄市",
+        "city_url": "https://www.meet99.com/lvyou-zaozhuang.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "东营市",
+        "city_url": "https://www.meet99.com/lvyou-dongying.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "烟台市",
+        "city_url": "https://www.meet99.com/lvyou-yantai.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "潍坊市",
+        "city_url": "https://www.meet99.com/lvyou-weifang.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "济宁市",
+        "city_url": "https://www.meet99.com/lvyou-jining.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "泰安市",
+        "city_url": "https://www.meet99.com/lvyou-taian.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "威海市",
+        "city_url": "https://www.meet99.com/lvyou-weihai.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "日照市",
+        "city_url": "https://www.meet99.com/lvyou-rizhao.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "临沂市",
+        "city_url": "https://www.meet99.com/lvyou-linyi.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "德州市",
+        "city_url": "https://www.meet99.com/lvyou-dezhou.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "聊城市",
+        "city_url": "https://www.meet99.com/lvyou-liaocheng.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "滨州市",
+        "city_url": "https://www.meet99.com/lvyou-binzhou.html"
+    },
+    {
+        "sheng": "山东省",
+        "sheng_url": "https://www.meet99.com/lvyou-shandong.html",
+        "city_name": "菏泽市",
+        "city_url": "https://www.meet99.com/lvyou-heze.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "安阳市",
+        "city_url": "https://www.meet99.com/lvyou-anyang.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "郑州市",
+        "city_url": "https://www.meet99.com/lvyou-zhengzhou.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "开封市",
+        "city_url": "https://www.meet99.com/lvyou-kaifeng.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "洛阳市",
+        "city_url": "https://www.meet99.com/lvyou-luoyang.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "平顶山市",
+        "city_url": "https://www.meet99.com/lvyou-pingdingshan.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "鹤壁市",
+        "city_url": "https://www.meet99.com/lvyou-hebi.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "新乡市",
+        "city_url": "https://www.meet99.com/lvyou-xinxiang.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "焦作市",
+        "city_url": "https://www.meet99.com/lvyou-jiaozuo.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "濮阳市",
+        "city_url": "https://www.meet99.com/lvyou-puyang.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "许昌市",
+        "city_url": "https://www.meet99.com/lvyou-xuchang.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "漯河市",
+        "city_url": "https://www.meet99.com/lvyou-luohe.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "三门峡市",
+        "city_url": "https://www.meet99.com/lvyou-sanmenxia.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "南阳市",
+        "city_url": "https://www.meet99.com/lvyou-nanyang.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "商丘市",
+        "city_url": "https://www.meet99.com/lvyou-shangqiu.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "信阳市",
+        "city_url": "https://www.meet99.com/lvyou-xinyang.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "周口市",
+        "city_url": "https://www.meet99.com/lvyou-zhoukou.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "驻马店市",
+        "city_url": "https://www.meet99.com/lvyou-zhumadian.html"
+    },
+    {
+        "sheng": "河南省",
+        "sheng_url": "https://www.meet99.com/lvyou-henan.html",
+        "city_name": "济源市",
+        "city_url": "https://www.meet99.com/lvyou-jiyuan.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "武汉市",
+        "city_url": "https://www.meet99.com/lvyou-wuhan.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "黄石市",
+        "city_url": "https://www.meet99.com/lvyou-huangshi.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "十堰市",
+        "city_url": "https://www.meet99.com/lvyou-shiyan.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "宜昌市",
+        "city_url": "https://www.meet99.com/lvyou-yichang.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "襄阳市",
+        "city_url": "https://www.meet99.com/lvyou-xiangyang.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "鄂州市",
+        "city_url": "https://www.meet99.com/lvyou-ezhou.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "荆门市",
+        "city_url": "https://www.meet99.com/lvyou-jingmen.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "孝感市",
+        "city_url": "https://www.meet99.com/lvyou-xiaogan.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "荆州市",
+        "city_url": "https://www.meet99.com/lvyou-jingzhou.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "黄冈市",
+        "city_url": "https://www.meet99.com/lvyou-huanggang.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "咸宁市",
+        "city_url": "https://www.meet99.com/lvyou-xianning.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "随州市",
+        "city_url": "https://www.meet99.com/lvyou-suizhou.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "恩施土家族苗族自治州",
+        "city_url": "https://www.meet99.com/lvyou-enshi.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "仙桃市",
+        "city_url": "https://www.meet99.com/lvyou-xiantao.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "潜江市",
+        "city_url": "https://www.meet99.com/lvyou-qianjiang.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "天门市",
+        "city_url": "https://www.meet99.com/lvyou-tianmen.html"
+    },
+    {
+        "sheng": "湖北省",
+        "sheng_url": "https://www.meet99.com/lvyou-hubei.html",
+        "city_name": "神农架林区",
+        "city_url": "https://www.meet99.com/lvyou-shennongjia.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "长沙市",
+        "city_url": "https://www.meet99.com/lvyou-changsha.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "株洲市",
+        "city_url": "https://www.meet99.com/lvyou-zhuzhou.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "湘潭市",
+        "city_url": "https://www.meet99.com/lvyou-xiangtan.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "衡阳市",
+        "city_url": "https://www.meet99.com/lvyou-hengyang.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "邵阳市",
+        "city_url": "https://www.meet99.com/lvyou-shaoyang.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "岳阳市",
+        "city_url": "https://www.meet99.com/lvyou-yueyang.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "常德市",
+        "city_url": "https://www.meet99.com/lvyou-changde.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "张家界市",
+        "city_url": "https://www.meet99.com/lvyou-zhangjiajie.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "益阳市",
+        "city_url": "https://www.meet99.com/lvyou-yiyang.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "郴州市",
+        "city_url": "https://www.meet99.com/lvyou-chenzhou.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "永州市",
+        "city_url": "https://www.meet99.com/lvyou-yongzhou.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "怀化市",
+        "city_url": "https://www.meet99.com/lvyou-huaihua.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "娄底市",
+        "city_url": "https://www.meet99.com/lvyou-loudi.html"
+    },
+    {
+        "sheng": "湖南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hunan.html",
+        "city_name": "湘西土家族苗族自治州",
+        "city_url": "https://www.meet99.com/lvyou-xiangxi.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "广州市",
+        "city_url": "https://www.meet99.com/lvyou-guangzhou.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "韶关市",
+        "city_url": "https://www.meet99.com/lvyou-shaoguan.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "深圳市",
+        "city_url": "https://www.meet99.com/lvyou-shenzhen.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "珠海市",
+        "city_url": "https://www.meet99.com/lvyou-zhuhai.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "汕头市",
+        "city_url": "https://www.meet99.com/lvyou-shantou.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "佛山市",
+        "city_url": "https://www.meet99.com/lvyou-foshan.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "江门市",
+        "city_url": "https://www.meet99.com/lvyou-jiangmen.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "湛江市",
+        "city_url": "https://www.meet99.com/lvyou-zhanjiang.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "茂名市",
+        "city_url": "https://www.meet99.com/lvyou-maoming.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "肇庆市",
+        "city_url": "https://www.meet99.com/lvyou-zhaoqing.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "惠州市",
+        "city_url": "https://www.meet99.com/lvyou-huizhou.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "梅州市",
+        "city_url": "https://www.meet99.com/lvyou-meizhou.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "汕尾市",
+        "city_url": "https://www.meet99.com/lvyou-shanwei.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "河源市",
+        "city_url": "https://www.meet99.com/lvyou-heyuan.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "阳江市",
+        "city_url": "https://www.meet99.com/lvyou-yangjiang.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "清远市",
+        "city_url": "https://www.meet99.com/lvyou-qingyuan.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "东莞市",
+        "city_url": "https://www.meet99.com/lvyou-dongguan.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "中山市",
+        "city_url": "https://www.meet99.com/lvyou-zhongshan.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "潮州市",
+        "city_url": "https://www.meet99.com/lvyou-chaozhou.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "揭阳市",
+        "city_url": "https://www.meet99.com/lvyou-jieyang.html"
+    },
+    {
+        "sheng": "广东省",
+        "sheng_url": "https://www.meet99.com/lvyou-guangdong.html",
+        "city_name": "云浮市",
+        "city_url": "https://www.meet99.com/lvyou-yunfu.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "南宁市",
+        "city_url": "https://www.meet99.com/lvyou-nanning.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "柳州市",
+        "city_url": "https://www.meet99.com/lvyou-liuzhou.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "桂林市",
+        "city_url": "https://www.meet99.com/lvyou-guilin.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "梧州市",
+        "city_url": "https://www.meet99.com/lvyou-wuzhou.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "北海市",
+        "city_url": "https://www.meet99.com/lvyou-beihai.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "防城港市",
+        "city_url": "https://www.meet99.com/lvyou-fangchenggang.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "钦州市",
+        "city_url": "https://www.meet99.com/lvyou-qinzhou.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "贵港市",
+        "city_url": "https://www.meet99.com/lvyou-guigang.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "玉林市",
+        "city_url": "https://www.meet99.com/lvyou-yulinshi.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "百色市",
+        "city_url": "https://www.meet99.com/lvyou-baise.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "贺州市",
+        "city_url": "https://www.meet99.com/lvyou-hezhou.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "河池市",
+        "city_url": "https://www.meet99.com/lvyou-hechi.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "来宾市",
+        "city_url": "https://www.meet99.com/lvyou-laibin.html"
+    },
+    {
+        "sheng": "广西",
+        "sheng_url": "https://www.meet99.com/lvyou-guangxi.html",
+        "city_name": "崇左市",
+        "city_url": "https://www.meet99.com/lvyou-chongzuo.html"
+    },
+    {
+        "sheng": "海南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hainan.html",
+        "city_name": "海口市",
+        "city_url": "https://www.meet99.com/lvyou-haikou.html"
+    },
+    {
+        "sheng": "海南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hainan.html",
+        "city_name": "三亚市",
+        "city_url": "https://www.meet99.com/lvyou-sanya.html"
+    },
+    {
+        "sheng": "海南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hainan.html",
+        "city_name": "儋州市",
+        "city_url": "https://www.meet99.com/lvyou-danzhou.html"
+    },
+    {
+        "sheng": "海南省",
+        "sheng_url": "https://www.meet99.com/lvyou-hainan.html",
+        "city_name": "省直辖县",
+        "city_url": "https://www.meet99.com/lvyou-hainanzhixia.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "万州区",
+        "city_url": "https://www.meet99.com/lvyou-wanzhouqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "涪陵区",
+        "city_url": "https://www.meet99.com/lvyou-fulingqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "渝中区",
+        "city_url": "https://www.meet99.com/lvyou-yuzhongqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "大渡口区",
+        "city_url": "https://www.meet99.com/lvyou-dadukou.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "江北区",
+        "city_url": "https://www.meet99.com/lvyou-jiangbeiqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "沙坪坝区",
+        "city_url": "https://www.meet99.com/lvyou-shapingba.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "九龙坡区",
+        "city_url": "https://www.meet99.com/lvyou-jiulongpo.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "南岸区",
+        "city_url": "https://www.meet99.com/lvyou-nananqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "北碚区",
+        "city_url": "https://www.meet99.com/lvyou-beibeiqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "渝北区",
+        "city_url": "https://www.meet99.com/lvyou-yubeiqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "巴南区",
+        "city_url": "https://www.meet99.com/lvyou-bananqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "黔江区",
+        "city_url": "https://www.meet99.com/lvyou-qianjiangqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "长寿区",
+        "city_url": "https://www.meet99.com/lvyou-changshouqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "江津区",
+        "city_url": "https://www.meet99.com/lvyou-jiangjinqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "合川区",
+        "city_url": "https://www.meet99.com/lvyou-hechuanqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "永川区",
+        "city_url": "https://www.meet99.com/lvyou-yongchuanqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "南川区",
+        "city_url": "https://www.meet99.com/lvyou-nanchuanqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "綦江区",
+        "city_url": "https://www.meet99.com/lvyou-qijiangqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "潼南区",
+        "city_url": "https://www.meet99.com/lvyou-tongnan.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "铜梁区",
+        "city_url": "https://www.meet99.com/lvyou-tongliang.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "大足区",
+        "city_url": "https://www.meet99.com/lvyou-dazuqu.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "荣昌区",
+        "city_url": "https://www.meet99.com/lvyou-rongchang.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "璧山区",
+        "city_url": "https://www.meet99.com/lvyou-bishan.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "梁平区",
+        "city_url": "https://www.meet99.com/lvyou-liangping.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "武隆区",
+        "city_url": "https://www.meet99.com/lvyou-wulong.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "开州区",
+        "city_url": "https://www.meet99.com/lvyou-kaixian.html"
+    },
+    {
+        "sheng": "重庆市",
+        "sheng_url": "https://www.meet99.com/lvyou-chongqing.html",
+        "city_name": "市直辖县",
+        "city_url": "https://www.meet99.com/lvyou-cqxian.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "成都市",
+        "city_url": "https://www.meet99.com/lvyou-chengdu.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "自贡市",
+        "city_url": "https://www.meet99.com/lvyou-zigong.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "攀枝花市",
+        "city_url": "https://www.meet99.com/lvyou-panzhihua.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "泸州市",
+        "city_url": "https://www.meet99.com/lvyou-luzhou.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "德阳市",
+        "city_url": "https://www.meet99.com/lvyou-deyang.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "绵阳市",
+        "city_url": "https://www.meet99.com/lvyou-mianyang.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "广元市",
+        "city_url": "https://www.meet99.com/lvyou-guangyuan.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "遂宁市",
+        "city_url": "https://www.meet99.com/lvyou-suining.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "内江市",
+        "city_url": "https://www.meet99.com/lvyou-neijiang.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "乐山市",
+        "city_url": "https://www.meet99.com/lvyou-leshan.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "南充市",
+        "city_url": "https://www.meet99.com/lvyou-nanchong.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "眉山市",
+        "city_url": "https://www.meet99.com/lvyou-meishan.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "宜宾市",
+        "city_url": "https://www.meet99.com/lvyou-yibin.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "广安市",
+        "city_url": "https://www.meet99.com/lvyou-guangan.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "达州市",
+        "city_url": "https://www.meet99.com/lvyou-dazhou.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "雅安市",
+        "city_url": "https://www.meet99.com/lvyou-yaan.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "巴中市",
+        "city_url": "https://www.meet99.com/lvyou-bazhong.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "资阳市",
+        "city_url": "https://www.meet99.com/lvyou-ziyangshi.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "阿坝藏族羌族自治州",
+        "city_url": "https://www.meet99.com/lvyou-abazizhizhou.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "甘孜藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-ganzi.html"
+    },
+    {
+        "sheng": "四川省",
+        "sheng_url": "https://www.meet99.com/lvyou-sichuan.html",
+        "city_name": "凉山彝族自治州",
+        "city_url": "https://www.meet99.com/lvyou-liangshanzizhizhou.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "贵阳市",
+        "city_url": "https://www.meet99.com/lvyou-guiyang.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "六盘水市",
+        "city_url": "https://www.meet99.com/lvyou-liupanshui.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "遵义市",
+        "city_url": "https://www.meet99.com/lvyou-zunyi.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "安顺市",
+        "city_url": "https://www.meet99.com/lvyou-anshun.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "铜仁市",
+        "city_url": "https://www.meet99.com/lvyou-tongren.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "黔西南布依族苗族自治州",
+        "city_url": "https://www.meet99.com/lvyou-qianxinan.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "毕节市",
+        "city_url": "https://www.meet99.com/lvyou-bijie.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "黔东南苗族侗族自治州",
+        "city_url": "https://www.meet99.com/lvyou-qiandongnan.html"
+    },
+    {
+        "sheng": "贵州省",
+        "sheng_url": "https://www.meet99.com/lvyou-guizhou.html",
+        "city_name": "黔南布依族苗族自治州",
+        "city_url": "https://www.meet99.com/lvyou-qiannan.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "昆明市",
+        "city_url": "https://www.meet99.com/lvyou-kunming.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "曲靖市",
+        "city_url": "https://www.meet99.com/lvyou-qujing.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "玉溪市",
+        "city_url": "https://www.meet99.com/lvyou-yuxi.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "保山市",
+        "city_url": "https://www.meet99.com/lvyou-baoshan.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "昭通市",
+        "city_url": "https://www.meet99.com/lvyou-zhaotong.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "丽江市",
+        "city_url": "https://www.meet99.com/lvyou-lijiang.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "普洱市",
+        "city_url": "https://www.meet99.com/lvyou-puer.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "临沧市",
+        "city_url": "https://www.meet99.com/lvyou-lincang.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "楚雄彝族自治州",
+        "city_url": "https://www.meet99.com/lvyou-chuxiong.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "红河哈尼族彝族自治州",
+        "city_url": "https://www.meet99.com/lvyou-honghe.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "文山苗族自治州",
+        "city_url": "https://www.meet99.com/lvyou-wenshan.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "西双版纳傣族自治州",
+        "city_url": "https://www.meet99.com/lvyou-xishuangbanna.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "大理白族自治州",
+        "city_url": "https://www.meet99.com/lvyou-dali.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "德宏傣族景颇族自治州",
+        "city_url": "https://www.meet99.com/lvyou-dehong.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "怒江傈僳族自治州",
+        "city_url": "https://www.meet99.com/lvyou-nujiang.html"
+    },
+    {
+        "sheng": "云南省",
+        "sheng_url": "https://www.meet99.com/lvyou-yunnan.html",
+        "city_name": "迪庆藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-diqing.html"
+    },
+    {
+        "sheng": "西藏",
+        "sheng_url": "https://www.meet99.com/lvyou-xizhan.html",
+        "city_name": "拉萨市",
+        "city_url": "https://www.meet99.com/lvyou-lasa.html"
+    },
+    {
+        "sheng": "西藏",
+        "sheng_url": "https://www.meet99.com/lvyou-xizhan.html",
+        "city_name": "昌都市",
+        "city_url": "https://www.meet99.com/lvyou-changdu.html"
+    },
+    {
+        "sheng": "西藏",
+        "sheng_url": "https://www.meet99.com/lvyou-xizhan.html",
+        "city_name": "山南市",
+        "city_url": "https://www.meet99.com/lvyou-shannan.html"
+    },
+    {
+        "sheng": "西藏",
+        "sheng_url": "https://www.meet99.com/lvyou-xizhan.html",
+        "city_name": "日喀则市",
+        "city_url": "https://www.meet99.com/lvyou-rikaze.html"
+    },
+    {
+        "sheng": "西藏",
+        "sheng_url": "https://www.meet99.com/lvyou-xizhan.html",
+        "city_name": "那曲市",
+        "city_url": "https://www.meet99.com/lvyou-naqu.html"
+    },
+    {
+        "sheng": "西藏",
+        "sheng_url": "https://www.meet99.com/lvyou-xizhan.html",
+        "city_name": "阿里地区",
+        "city_url": "https://www.meet99.com/lvyou-ali.html"
+    },
+    {
+        "sheng": "西藏",
+        "sheng_url": "https://www.meet99.com/lvyou-xizhan.html",
+        "city_name": "林芝市",
+        "city_url": "https://www.meet99.com/lvyou-linzhi.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "西安市",
+        "city_url": "https://www.meet99.com/lvyou-xian.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "铜川市",
+        "city_url": "https://www.meet99.com/lvyou-tongchuan.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "宝鸡市",
+        "city_url": "https://www.meet99.com/lvyou-baoji.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "咸阳市",
+        "city_url": "https://www.meet99.com/lvyou-xianyang.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "渭南市",
+        "city_url": "https://www.meet99.com/lvyou-weinan.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "延安市",
+        "city_url": "https://www.meet99.com/lvyou-yanan.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "汉中市",
+        "city_url": "https://www.meet99.com/lvyou-hanzhong.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "榆林市",
+        "city_url": "https://www.meet99.com/lvyou-yulin.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "安康市",
+        "city_url": "https://www.meet99.com/lvyou-ankang.html"
+    },
+    {
+        "sheng": "陕西省",
+        "sheng_url": "https://www.meet99.com/lvyou-shangxi.html",
+        "city_name": "商洛市",
+        "city_url": "https://www.meet99.com/lvyou-shangluo.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "兰州市",
+        "city_url": "https://www.meet99.com/lvyou-lanzhou.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "嘉峪关市",
+        "city_url": "https://www.meet99.com/lvyou-jiayuguan.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "金昌市",
+        "city_url": "https://www.meet99.com/lvyou-jinchang.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "白银市",
+        "city_url": "https://www.meet99.com/lvyou-baiyin.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "天水市",
+        "city_url": "https://www.meet99.com/lvyou-tianshui.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "武威市",
+        "city_url": "https://www.meet99.com/lvyou-wuwei.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "张掖市",
+        "city_url": "https://www.meet99.com/lvyou-zhangye.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "平凉市",
+        "city_url": "https://www.meet99.com/lvyou-pingliang.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "酒泉市",
+        "city_url": "https://www.meet99.com/lvyou-jiuquan.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "庆阳市",
+        "city_url": "https://www.meet99.com/lvyou-qingyang.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "定西市",
+        "city_url": "https://www.meet99.com/lvyou-dingxi.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "陇南市",
+        "city_url": "https://www.meet99.com/lvyou-longnan.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "临夏自治州",
+        "city_url": "https://www.meet99.com/lvyou-linxia.html"
+    },
+    {
+        "sheng": "甘肃省",
+        "sheng_url": "https://www.meet99.com/lvyou-gansu.html",
+        "city_name": "甘南藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-gannan.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "西宁市",
+        "city_url": "https://www.meet99.com/lvyou-xining.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "海东市",
+        "city_url": "https://www.meet99.com/lvyou-Haidong.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "海北藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-Haibei.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "黄南藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-Huangnan.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "海南藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-Hainanzhou.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "果洛藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-Golog.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "玉树藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-Yushuxian.html"
+    },
+    {
+        "sheng": "青海省",
+        "sheng_url": "https://www.meet99.com/lvyou-qinghai.html",
+        "city_name": "海西蒙古族藏族自治州",
+        "city_url": "https://www.meet99.com/lvyou-Haixi.html"
+    },
+    {
+        "sheng": "宁夏",
+        "sheng_url": "https://www.meet99.com/lvyou-ningxia.html",
+        "city_name": "银川市",
+        "city_url": "https://www.meet99.com/lvyou-yinchuan.html"
+    },
+    {
+        "sheng": "宁夏",
+        "sheng_url": "https://www.meet99.com/lvyou-ningxia.html",
+        "city_name": "石嘴山市",
+        "city_url": "https://www.meet99.com/lvyou-Shizuishan.html"
+    },
+    {
+        "sheng": "宁夏",
+        "sheng_url": "https://www.meet99.com/lvyou-ningxia.html",
+        "city_name": "吴忠市",
+        "city_url": "https://www.meet99.com/lvyou-Wuzhong.html"
+    },
+    {
+        "sheng": "宁夏",
+        "sheng_url": "https://www.meet99.com/lvyou-ningxia.html",
+        "city_name": "固原市",
+        "city_url": "https://www.meet99.com/lvyou-Guyuan.html"
+    },
+    {
+        "sheng": "宁夏",
+        "sheng_url": "https://www.meet99.com/lvyou-ningxia.html",
+        "city_name": "中卫市",
+        "city_url": "https://www.meet99.com/lvyou-Zhongwei.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "乌鲁木齐市",
+        "city_url": "https://www.meet99.com/lvyou-Urumqi.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "克拉玛依市",
+        "city_url": "https://www.meet99.com/lvyou-Karamay.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "吐鲁番市",
+        "city_url": "https://www.meet99.com/lvyou-Turpan.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "哈密市",
+        "city_url": "https://www.meet99.com/lvyou-Hami.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "昌吉自治州",
+        "city_url": "https://www.meet99.com/lvyou-Changji.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "博尔塔拉蒙古自治州",
+        "city_url": "https://www.meet99.com/lvyou-Boertala.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "巴音郭楞蒙古自治州",
+        "city_url": "https://www.meet99.com/lvyou-Bayingolin.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "阿克苏地区",
+        "city_url": "https://www.meet99.com/lvyou-Aksu.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "克孜勒苏柯尔克孜自治州",
+        "city_url": "https://www.meet99.com/lvyou-Kizilsu.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "喀什地区",
+        "city_url": "https://www.meet99.com/lvyou-Kashgar.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "和田地区",
+        "city_url": "https://www.meet99.com/lvyou-Hotan.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "伊犁哈萨克自治州",
+        "city_url": "https://www.meet99.com/lvyou-Ili.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "直辖县",
+        "city_url": "https://www.meet99.com/lvyou-xinjiangzhixia.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "塔城地区",
+        "city_url": "https://www.meet99.com/lvyou-Tacheng.html"
+    },
+    {
+        "sheng": "新疆",
+        "sheng_url": "https://www.meet99.com/lvyou-xinjiang.html",
+        "city_name": "阿勒泰地区",
+        "city_url": "https://www.meet99.com/lvyou-Altay.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "台北市",
+        "city_url": "https://www.meet99.com/lvyou-taibei.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "高雄市",
+        "city_url": "https://www.meet99.com/lvyou-Kaohsiung.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "基隆市",
+        "city_url": "https://www.meet99.com/lvyou-Keelung.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "台中市",
+        "city_url": "https://www.meet99.com/lvyou-Taichung.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "台南市",
+        "city_url": "https://www.meet99.com/lvyou-Tainan.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "新竹市",
+        "city_url": "https://www.meet99.com/lvyou-Hsinchu.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "嘉义市",
+        "city_url": "https://www.meet99.com/lvyou-Chiayi.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "新北市",
+        "city_url": "https://www.meet99.com/lvyou-TaipeiCounty.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "宜兰县",
+        "city_url": "https://www.meet99.com/lvyou-Yilan.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "新竹县",
+        "city_url": "https://www.meet99.com/lvyou-HsinchuCounty.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "桃园县",
+        "city_url": "https://www.meet99.com/lvyou-Taoyuan.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "苗栗县",
+        "city_url": "https://www.meet99.com/lvyou-Miaoli.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "台中县",
+        "city_url": "https://www.meet99.com/lvyou-TaichungCounty.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "彰化县",
+        "city_url": "https://www.meet99.com/lvyou-Changhua.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "南投县",
+        "city_url": "https://www.meet99.com/lvyou-Nantou.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "嘉义县",
+        "city_url": "https://www.meet99.com/lvyou-ChiayiCounty.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "云林县",
+        "city_url": "https://www.meet99.com/lvyou-Yunlin.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "台南县",
+        "city_url": "https://www.meet99.com/lvyou-TainanCounty.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "高雄县",
+        "city_url": "https://www.meet99.com/lvyou-KaohsiungCounty.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "屏东县",
+        "city_url": "https://www.meet99.com/lvyou-Pingtung.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "台东县",
+        "city_url": "https://www.meet99.com/lvyou-Taitung.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "花莲县",
+        "city_url": "https://www.meet99.com/lvyou-Hualien.html"
+    },
+    {
+        "sheng": "台湾省",
+        "sheng_url": "https://www.meet99.com/lvyou-Taiwan.html",
+        "city_name": "澎湖县",
+        "city_url": "https://www.meet99.com/lvyou-Penghu.html"
+    },
+    {
+        "sheng": "香港",
+        "sheng_url": "https://www.meet99.com/lvyou-HongKong.html",
+        "city_name": "香港岛",
+        "city_url": "https://www.meet99.com/lvyou-HongKongIsland.html"
+    },
+    {
+        "sheng": "香港",
+        "sheng_url": "https://www.meet99.com/lvyou-HongKong.html",
+        "city_name": "九龙",
+        "city_url": "https://www.meet99.com/lvyou-Kowloon.html"
+    },
+    {
+        "sheng": "香港",
+        "sheng_url": "https://www.meet99.com/lvyou-HongKong.html",
+        "city_name": "新界",
+        "city_url": "https://www.meet99.com/lvyou-NewTerritories.html"
+    },
+    {
+        "sheng": "澳门",
+        "sheng_url": "https://www.meet99.com/lvyou-Macau.html",
+        "city_name": "澳门半岛",
+        "city_url": "https://www.meet99.com/lvyou-MacauPeninsula.html"
+    },
+    {
+        "sheng": "澳门",
+        "sheng_url": "https://www.meet99.com/lvyou-Macau.html",
+        "city_name": "澳门离岛",
+        "city_url": "https://www.meet99.com/lvyou-MacauIslands.html"
+    },
+    {
+        "sheng": "澳门",
+        "sheng_url": "https://www.meet99.com/lvyou-Macau.html",
+        "city_name": "路氹城",
+        "city_url": "https://www.meet99.com/lvyou-Cotai.html"
+    }
+]

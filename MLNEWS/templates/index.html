@@ -1,0 +1,145 @@
+{% extends "layout.html" %}
+{% block title %}
+    旅游景点推荐系统
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="/static/css/nav.css">
+    <style>
+        a:hover {
+            color: red;
+        !important;
+        }
+
+        .haha:hover {
+            background-color: lightskyblue;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="cation-content">
+        <div style="height:50px"></div> <!-- 可以删除 -->
+        <div class="cation-middle">
+            <dl class="cation-list">
+                <dt>省</dt>
+                <dd>
+                    {% for foo in sheng_kind %}
+                        {% ifequal foo  sheng_name %}
+                            <a href="/?sheng_name={{ foo }}" rel="{{ foo }}" name="sheng" class="on">{{ foo }}</a>
+                        {% else %}
+                            <a href="/?sheng_name={{ foo }}" rel="{{ foo }}" name="sheng" class="default">{{ foo }}</a>
+                        {% endifequal %}
+                    {% endfor %}
+                </dd>
+            </dl>
+            <dl class="cation-list">
+                <dt>城市</dt>
+                <dd>
+                    {% for foo in city_kind %}
+                        {% ifequal foo  city_name %}
+                            <a href="/?sheng_name={{ sheng_name }}&city_name={{ foo }}" rel="{{ foo }}" name="city"
+                               class="on">{{ foo }}</a>
+                        {% else %}
+                            <a href="/?sheng_name={{ sheng_name }}&city_name={{ foo }}" rel="{{ foo }}" name="city"
+                               class="default">{{ foo }}</a>
+                        {% endifequal %}
+                    {% endfor %}
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="newlist" style="background-color:white;width: 1200px;margin: 10px auto">
+        {% for foo in newlist %}
+            <div class="haha" style="height: 150px;width: 900px;vertical-align:middle;
+            border: 1px solid black;border-radius: 10px;margin-bottom: 10px;margin: 10px auto">
+                <img style="width:150px;height: 130px;display: inline-block;vertical-align:middle;"
+                     src="{{ foo.img }}" alt="">
+                <div class="info"
+                     style="width: 640px;height: 140px;display: inline-block;vertical-align:middle;position: relative">
+                    <p style="margin:10px 20px;height: 20px;line-height: 20px"><a jid="{{ foo.id }}" class="detail" style="color: #00a8ff" href="/detail/?id={{ foo.id }}">{{ foo.jingqu }}</a>
+                    </p>
+                    <p style="margin:10px 20px;height: 20px;line-height: 20px">{{ foo.sheng }}</p>
+                    <p style="margin:10px 20px;height: 20px;line-height: 20px">{{ foo.city }}</p>
+                    <div style="position: absolute;bottom: 10px">
+                        <span style="margin-left: 25px;color: #e84118">想去：{{ foo.never }}人</span>
+                        <span style="margin-left: 25px;color: #e84118">去过：{{ foo.ever }}人</span>
+                        <span style="margin-left: 25px;color: #e84118">星级：{{ foo.level }}</span>
+                        {% ifequal foo.is_like 1 %}
+                            <span style="margin-left: 30px"><i id_="{{ foo.id }}"
+                                                               class="shoucang layui-icon layui-icon-heart-fill"
+                                                               style="color: red"></i></span>
+                        {% else %}
+                            <span style="margin-left: 30px"><i id_="{{ foo.id }}"
+                                                               class="shoucang layui-icon layui-icon-heart-fill"
+                                                               style="color: black"></i></span>
+                        {% endifequal %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+
+    </div>
+{% endblock %}
+
+{% block js %}
+    {#    <script src="/static/js/current.js"></script>#}
+    <script src="/static/layui/lay/modules/layer.js"></script>
+    <script>
+        $('.detail').click(function () {
+            var img = $(this).parents('.haha').children('img').attr('src')
+            var id = $(this).attr('jid')
+            if (img == '') {
+                layer.confirm('您需要爬取这个数据吗？', function (index) {
+                    layer.closeAll('dialog');
+                    $.ajax({
+                        url: '/scrawl_ajax/',
+                        dataType: 'json',
+                        method: 'post',
+                        data: {
+                            'id':id
+                        },
+                        success: function (data) {
+                            alert('数据爬取成功啦！！')
+                            location.reload()
+                        }
+                    });
+                });
+                return false
+            }
+        })
+        /*
+            $(function () {
+                new SelectTag({
+                    child: ".default", //所有默认
+                    over: 'on', //当前选中
+                    all: ".all" // 默认全部
+                });
+            })*/
+        $('.shoucang').click(function () {
+            var id = $(this).attr('id_')
+            var ths = $(this)
+            $.ajax({
+                url: '/star_ajax/',
+                dataType: 'json',
+                method: 'post',
+                data: {
+                    'id': id
+                },
+                success: function (data) {
+                    if (data.color == 'red') {
+                        $(ths).css('color', data.color)
+                        layer.msg('收藏成功', {icon: 8, time: 2000});
+                    } else {
+                        $(ths).css('color', data.color)
+                        layer.msg('取消收藏', {icon: 5, time: 2000});
+                    }
+
+                }
+            });
+        })
+
+    </script>
+
+{% endblock %}
