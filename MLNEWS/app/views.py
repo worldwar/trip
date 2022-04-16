@@ -25,6 +25,7 @@ from selenium.webdriver.support.ui import Select  # select类定位下拉框
 
 from app.itemBasedCF import  ItemBasedCF
 from app.models import *
+from random import shuffle
 
 
 def type2sql(request):
@@ -514,4 +515,22 @@ def plot(request):
     print(main4)
     main4_x = [JingQu.objects.get(id=item['jingqu']).jingqu for item in main4][:10]
     main4_y = [item['count'] for item in main4][:10]
+
+    # main5 = See.objects.values('jingqu').annotate(count=Sum('num'))
+
+    main5 = [{'name':item['city'], 'value':item['count'] }for item in main3][:20]
+
+    all_sights = Sight.objects.all()
+
+    hot_sights = Sight.objects.order_by('-hot')[:60]
+
+    main5 = [{'name':item.name, 'value':item.comments }for item in hot_sights][:60]
+    shuffle(main5)
+    main5 = main5[:20]
+
+    love_sights = Sight.objects.order_by('-comments')[:60]
+    main6 = [{'name':item.name, 'value':item.comments }for item in love_sights][:60]
+    shuffle(main6)
+    main6 = main6[:20]
+
     return  render(request,'plot.html',locals())

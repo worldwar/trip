@@ -71,6 +71,25 @@ class See(models.Model):
     class Meta:
         verbose_name_plural = '浏览表'  # 此时，admin中表的名字就是‘浏览‘
 
+class Sight(models.Model):
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=128)
+    desc = models.TextField()
+    city = models.CharField(max_length=128)
+    level = models.CharField(max_length=128)
+    address = models.CharField(max_length=128)
+    price = models.FloatField()
+    sales = models.IntegerField()
+    hot = models.FloatField()
+    comment_high = models.IntegerField(default=0, verbose_name='好评')
+    comment_mid = models.IntegerField(default=0, verbose_name='中评')
+    comment_low = models.IntegerField(default=0, verbose_name='差评')
+    comments = models.IntegerField(default=0, verbose_name='全部')
+    comment_mark = models.CharField(max_length=128)
+    class Meta:
+        db_table = 'sight'
+        verbose_name_plural = '景点表'
+Sight.objects = Sight.objects.using('qunar')
 
 
 
