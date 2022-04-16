@@ -187,6 +187,25 @@
         <div class="layui-row layui-col-space15">
             <div class="layui-col-sm12 layui-col-md6">
                 <div class="layui-card">
+                    <div class="layui-card-header">评分最高景区</div>
+                    <div class="layui-card-body" style="min-height: 300px;">
+                        <div id="main1" class="layui-col-sm12" style="height: 300px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm12 layui-col-md6">
+                <div class="layui-card">
+                    <div class="layui-card-header">销售最多景区</div>
+                    <div class="layui-card-body" style="min-height: 300px;">
+                        <div id="main2" class="layui-col-sm12" style="height: 300px;"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm12 layui-col-md6">
+                <div class="layui-card">
                     <div class="layui-card-header">好评景点</div>
                     <div class="layui-card-body" style="min-height: 280px;">
                         <div id="main5" class="layui-col-sm12" style="height: 300px;"></div>
@@ -214,6 +233,108 @@
     <script src="/static/js/current.js"></script>
     <script src="/static/layui/lay/modules/layer.js"></script>
     <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main1'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            grid: {
+                top: '5%',
+                right: '1%',
+                left: '1%',
+                bottom: '10%',
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            xAxis: {
+                type: 'category',
+                data: {{ hot_sight_x | safe }},
+                axisLabel: {
+                    interval: 0,
+                    formatter: function (value) {
+                        return value.split("").join("\n");
+                    }
+                },
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                name: '评论分数',
+                data: {{ hot_sight_y |safe }},
+                type: 'line',
+                smooth: true
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main2'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'cross',
+                    label: {
+                        backgroundColor: '#6a7985'
+                    }
+                }
+            },
+            grid: {
+                top: '5%',
+                right: '2%',
+                left: '1%',
+                bottom: '10%',
+                containLabel: true
+            },
+            xAxis: [
+                {
+                    type: 'category',
+                    boundaryGap: false,
+                    data: {{ love_sight_x |safe }},
+                    axisLabel: {
+                        interval: 0,
+                        formatter: function (value) {
+                            return value.split("").join("\n");
+                        }
+                    },
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'value'
+                }
+            ],
+            series: [
+                {
+                    name: '销量',
+                    type: 'line',
+                    areaStyle: {normal: {}},
+                    data: {{ love_sight_y1 |safe }},
+                    smooth: true
+                },
+                {
+                    name: '价格',
+                    type: 'line',
+                    areaStyle: {normal: {}},
+                    data: {{ love_sight_y2 |safe }},
+                    smooth: true,
+
+                }
+            ]
+        };
+
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+
 
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('main5'));

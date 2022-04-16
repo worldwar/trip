@@ -30,11 +30,19 @@ def aspect(request):
 
     hot_sights = Sight.objects.filter(city = search_value).order_by('-hot')[:60]
 
+    hot_sight_x = [item.name for item in hot_sights][:20]
+    hot_sight_y = [item.hot for item in hot_sights][:20]
+
     main5 = [{'name':item.name, 'value':item.comments }for item in hot_sights][:60]
     shuffle(main5)
     main5 = main5[:20]
 
-    love_sights = Sight.objects.filter(city = search_value).order_by('-comments')[:60]
+    love_sights = Sight.objects.filter(city = search_value).order_by('-sales')[:60]
+    love_sight_x = [item.name for item in love_sights][:20]
+    love_sight_y1 = [item.sales for item in love_sights][:20]
+    love_sight_y2 = [item.price for item in love_sights][:20]
+
+
     main6 = [{'name':item.name, 'value':item.comments }for item in love_sights][:60]
     shuffle(main6)
     main6 = main6[:20]
