@@ -1,0 +1,325 @@
+{% extends "layout.html" %}
+{% load staticfiles %}
+{% block title %}
+    旅游推荐系统
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="/static/css/nav.css">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi"/>
+    <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xadmin.css' %}">
+    <script src="{% static 'layui/layui.js' %}" charset="utf-8"></script>
+    <script type="text/javascript" src="{% static 'js/xadmin.js' %}"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        a:hover {
+            color: red;
+        !important;
+        }
+
+
+        .haha:hover {
+            background-color: lightskyblue;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            {#background-image: url();#}
+            font-weight: 500;
+            font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
+        }
+
+        #container {
+            width: 500px;
+            height: 60px;
+            margin: 0 auto;
+        }
+
+        div.search {
+            padding: 10px 0;
+        }
+
+        form {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        input, button {
+            border: none;
+            outline: none;
+        }
+
+        input {
+            width: 100%;
+            height: 42px;
+            padding-left: 13px;
+        }
+
+        button {
+            height: 42px;
+            width: 42px;
+            cursor: pointer;
+            position: absolute;
+        }
+
+        /*搜索框6*/
+
+        .bar6 input {
+            border: 2px solid #c5464a;
+            border-radius: 5px;
+            background: transparent;
+            top: 0;
+            right: 0;
+        }
+
+        .bar6 button {
+            background: #c5464a;
+            border-radius: 0 5px 5px 0;
+            width: 60px;
+            top: 0;
+            right: 0;
+        }
+
+        .bar6 button:before {
+            content: "搜索";
+            font-size: 13px;
+            color: #F9F0DA;
+        }
+
+        /*搜索框7*/
+
+        .bar7 form {
+            height: 42px;
+        }
+
+        .bar7 input {
+            width: 250px;
+            border-radius: 42px;
+            border: 2px solid #324B4E;
+            background: #F9F0DA;
+            transition: .3s linear;
+            float: right;
+        }
+
+        .bar7 input:focus {
+            width: 300px;
+        }
+
+        .bar7 button {
+            background: none;
+            top: -2px;
+            right: 20px;
+        }
+
+        .bar7 button:before {
+            content: "Search";
+            font-family: FontAwesome;
+            color: #324b4e;
+        }
+
+        /*搜索框8*/
+
+        .bar8 form {
+            height: 42px;
+        }
+
+        .bar8 input {
+            width: 0;
+            padding: 0 42px 0 15px;
+            border-bottom: 2px solid transparent;
+            background: transparent;
+            transition: .3s linear;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        .bar8 input:focus {
+            width: 300px;
+            z-index: 1;
+            border-bottom: 2px solid #F9F0DA;
+        }
+
+        .bar8 button {
+            background: #683B4D;
+            top: 0;
+            right: 0;
+        }
+
+        .bar8 button:before {
+            content: "Go";
+            font-family: FontAwesome;
+            font-size: 16px;
+            color: #F9F0DA;
+        }
+
+    </style>
+{% endblock %}
+
+{% block content %}
+        <div id="container">
+        <div class="search bar6">
+            <form method="post" action="/aspect/">
+                <input type="text"
+                       placeholder="请输入景区关键词"
+                       name="co_search_value"
+                       value="{{ co_search_value }}">
+                <button type="submit"></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="layui-fluid" style="">
+        <div class="layui-row layui-col-space15">
+            <div class="layui-col-sm12 layui-col-md6">
+                <div class="layui-card">
+                    <div class="layui-card-header">好评景点</div>
+                    <div class="layui-card-body" style="min-height: 280px;">
+                        <div id="main5" class="layui-col-sm12" style="height: 300px;"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm12 layui-col-md6">
+                <div class="layui-card">
+                    <div class="layui-card-header">热门景点</div>
+                    <div class="layui-card-body" style="min-height: 280px;">
+                        <div id="main6" class="layui-col-sm12" style="height: 300px;"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+    <script src="/static/js/echarts-wordcloud.min.js"></script>
+    <script src="/static/js/current.js"></script>
+    <script src="/static/layui/lay/modules/layer.js"></script>
+    <script type="text/javascript">
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main5'));
+        // 指定图表的配置项和数据
+        var option = {
+            tooltip: {
+                show: true
+            },
+            series: [{
+                name: '热门城市',
+                type: 'wordCloud',
+                sizeRange: [10, 50],//文字范围
+                //文本旋转范围，文本将通过rotationStep45在[-90,90]范围内随机旋转
+                rotationRange: [0, 0],
+                rotationStep: 45,
+                textRotation: [0, 45, 90, -45],
+                //形状
+                shape: 'circle',
+                textStyle: {
+                    normal: {
+                        color: function() {//文字颜色的随机色
+                            return 'rgb(' + [
+                                Math.round(Math.random() * 250),
+                                Math.round(Math.random() * 250),
+                                Math.round(Math.random() * 250)
+                            ].join(',') + ')';
+                        }
+                    },
+                    //悬停上去的字体的阴影设置
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowColor: '#333'
+                    }
+                },
+                data: {{ main5 | safe }}
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main6'));
+        // 指定图表的配置项和数据
+        var option = {
+            tooltip: {
+                show: true
+            },
+            series: [{
+                name: '热门景点',
+                type: 'wordCloud',
+                sizeRange: [10, 50],//文字范围
+                //文本旋转范围，文本将通过rotationStep45在[-90,90]范围内随机旋转
+                rotationRange: [0, 0],
+                rotationStep: 45,
+                textRotation: [0, 45, 90, -45],
+                //形状
+                shape: 'star',
+                textStyle: {
+                    normal: {
+                        color: function() {//文字颜色的随机色
+                            return 'rgb(' + [
+                                Math.round(Math.random() * 250),
+                                Math.round(Math.random() * 250),
+                                Math.round(Math.random() * 250)
+                            ].join(',') + ')';
+                        }
+                    },
+                    //悬停上去的字体的阴影设置
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowColor: '#333'
+                    }
+                },
+                data: {{ main6 | safe }}
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+
+
+    <script>
+        $('.shoucang').click(function () {
+            var id = $(this).attr('id_')
+            var ths = $(this)
+            $.ajax({
+                url: '/star_ajax/',
+                dataType: 'json',
+                method: 'post',
+                data: {
+                    'id': id
+                },
+                success: function (data) {
+                    if (data.color == 'red') {
+                        $(ths).css('color', data.color)
+                        layer.msg('收藏成功', {icon: 5, time: 2000});
+                    } else {
+                        $(ths).css('color', data.color)
+                        layer.msg('取消收藏', {icon: 5, time: 2000});
+                    }
+
+                }
+            });
+        })
+    </script>
+{% endblock %}

@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 
 from app import views
+from app import aspect
 from meteorological import settings
 
 urlpatterns = [
@@ -33,6 +34,7 @@ urlpatterns = [
     path('test/', views.test, name='test'),
     path('search/', views.search, name='search'),
     path('plot/', views.plot, name='plot'),
+    path('aspect/', aspect.aspect, name='aspect'),
 
 
 
