@@ -26,6 +26,8 @@ def parse_hot_city():
         cookie.load(cookies_string)
         for key, morsel in cookie.items():
             driver.add_cookie({"name":key, "value":morsel.value})
+
+
         uls = driver.find_element(by=By.XPATH, value="//ul[@mp-role='hotCityList']")
         #lis = uls.find_element(by=By.XPATH, value="li")
         lis = uls.find_elements_by_css_selector('li a')
