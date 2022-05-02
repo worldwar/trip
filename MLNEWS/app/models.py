@@ -91,6 +91,19 @@ class Sight(models.Model):
         verbose_name_plural = '景点表'
 Sight.objects = Sight.objects.using('qunar')
 
+class Restaurant(models.Model):
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=256)
+    desc = models.TextField()
+    city = models.CharField(max_length=128)
+    address = models.CharField()
+    score = models.FloatField()
+    comments = models.IntegerField(default=0, verbose_name='评论数')
+    class Meta:
+        db_table = 'restaurant'
+        verbose_name_plural = '餐厅表'
+Restaurant.objects = Restaurant.objects.using('qunar')
+
 
 
 
