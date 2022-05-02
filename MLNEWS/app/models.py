@@ -96,7 +96,7 @@ class Restaurant(models.Model):
     name = models.CharField(max_length=256)
     desc = models.TextField()
     city = models.CharField(max_length=128)
-    address = models.CharField()
+    address = models.TextField()
     score = models.FloatField()
     comments = models.IntegerField(default=0, verbose_name='评论数')
     class Meta:

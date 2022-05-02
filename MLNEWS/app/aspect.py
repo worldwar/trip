@@ -33,6 +33,16 @@ def aspect(request):
     hot_sight_x = [item.name for item in hot_sights][:20]
     hot_sight_y = [item.hot for item in hot_sights][:20]
 
+    hot_restaurants = Restaurant.objects.filter(city= search_value).order_by('-comments')[:60]
+    hot_restaurant_x = [item.name[:5] for item in hot_restaurants][:20]
+    hot_restaurant_y1 = [item.comments for item in hot_restaurants][:20]
+    hot_restaurant_y2 = [item.score for item in hot_restaurants][:20]
+
+    love_restaurants = Restaurant.objects.filter(city= search_value, comments__gte=10).order_by('-score', '-comments')[:60]
+    love_restaurant_x = [item.name[:5] for item in love_restaurants][:20]
+    love_restaurant_y1 = [item.score for item in love_restaurants][:20]
+    love_restaurant_y2 = [item.comments for item in love_restaurants][:20]
+
     main5 = [{'name':item.name, 'value':item.comments }for item in hot_sights][:60]
     shuffle(main5)
     main5 = main5[:20]

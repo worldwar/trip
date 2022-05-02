@@ -206,6 +206,24 @@
 
             <div class="layui-col-sm12 layui-col-md6">
                 <div class="layui-card">
+                    <div class="layui-card-header">热门餐厅</div>
+                    <div class="layui-card-body" style="min-height: 300px;">
+                        <div id="main3" class="layui-col-sm12" style="height: 300px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm12 layui-col-md6">
+                <div class="layui-card">
+                    <div class="layui-card-header">好评餐厅</div>
+                    <div class="layui-card-body" style="min-height: 300px;">
+                        <div id="main4" class="layui-col-sm12" style="height: 300px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm12 layui-col-md6">
+                <div class="layui-card">
                     <div class="layui-card-header">好评景点</div>
                     <div class="layui-card-body" style="min-height: 280px;">
                         <div id="main5" class="layui-col-sm12" style="height: 300px;"></div>
@@ -334,6 +352,94 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 
+
+                    // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main3'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            grid: {
+                top: '5%',
+                right: '1%',
+                left: '1%',
+                bottom: '10%',
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            xAxis: {
+                type: 'category',
+                data: {{ hot_restaurant_x | safe }},
+                axisLabel: {
+                    interval: 0,
+                    formatter: function (value) {
+                        return value.split("").join("\n");
+                    }
+                },
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                name: '评论人数',
+                data: {{ hot_restaurant_y1 |safe }},
+                type: 'line',
+                smooth: true
+            },{
+                name: '评分',
+                data: {{ hot_restaurant_y2 |safe }},
+                type: 'line',
+                smooth: true
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+            // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main4'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            grid: {
+                top: '5%',
+                right: '1%',
+                left: '1%',
+                bottom: '10%',
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            xAxis: {
+                type: 'category',
+                data: {{ love_restaurant_x | safe }},
+                axisLabel: {
+                    interval: 0,
+                    formatter: function (value) {
+                        return value.split("").join("\n");
+                    }
+                },
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                name: '评分',
+                data: {{ love_restaurant_y1 |safe }},
+                type: 'line',
+                smooth: true
+            },{
+                name: '评论人数',
+                data: {{ love_restaurant_y2 |safe }},
+                type: 'line',
+                smooth: true
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
 
 
         // 基于准备好的dom，初始化echarts实例
