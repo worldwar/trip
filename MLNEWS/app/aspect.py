@@ -1,8 +1,14 @@
 from django.shortcuts import render
 from app.models import *
 from random import shuffle
+from app.views import check_login
 
+@check_login
 def aspect(request):
+    uid = int(request.COOKIES.get('uid', -1))
+    if uid != -1:
+        username = User.objects.filter(id=uid)[0].name
+
     search_type = request.POST.get('searchType')
 
     search_value = request.POST.get('search_value')

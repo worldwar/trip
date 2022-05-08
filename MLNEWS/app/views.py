@@ -481,6 +481,7 @@ def logout(request):
     obj.delete_cookie('uid')
     return obj
 
+@check_login
 def plot(request):
     uid = int(request.COOKIES.get('uid', -1))
     if uid != -1:
