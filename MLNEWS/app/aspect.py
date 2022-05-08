@@ -19,7 +19,8 @@ def aspect(request):
         else:
             search_value = values[0]
     else:
-        co_search_value = ''
+        co_search_value = '北京'
+        search_value = '北京'
 
     safe = {}
     if not search_value:
