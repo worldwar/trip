@@ -85,7 +85,6 @@ def check_login(func):
 
 
 # Create your views here.
-@check_login
 def index(request):
     uid = int(request.COOKIES.get('uid', -1))
     if uid != -1:
